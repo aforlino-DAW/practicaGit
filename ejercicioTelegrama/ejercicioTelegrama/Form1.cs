@@ -28,7 +28,7 @@ namespace ejercicioTelegrama
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
-            if (chkUrgente.Checked)
+            if (radUrgente.Checked)
             {
                 tipoTelegrama = 'u';
             }
@@ -46,7 +46,7 @@ namespace ejercicioTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
@@ -60,7 +60,7 @@ namespace ejercicioTelegrama
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
