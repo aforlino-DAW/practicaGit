@@ -50,7 +50,7 @@ namespace ejercicioTelegrama
                 }
                 else
                 {
-                    coste = 2.5 + 0.5 * (numPalabras - 10); // Corrección de calcular coste adicional correctamente
+                    coste = 3 + 0.5 * (numPalabras - 10); // Corrección de calcular coste adicional correctamente
                 }
             }
             else
@@ -64,7 +64,7 @@ namespace ejercicioTelegrama
                     }
                     else
                     {
-                        coste = 5 + 0.75 * (numPalabras - 10);
+                        coste = 6 + 0.75 * (numPalabras - 10);
                     }
                 }
                 else
